@@ -1,0 +1,18 @@
+
+.dropdown-toggle { 
+    cursor: pointer;
+  }
+  .row{
+
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+    font-size: 1.5em;
+  }
+  
+  .outlet{
+max-width: 500px;
+
+  }

@@ -1,0 +1,9 @@
+<ul><h3>Houses</h3>
+ 
+    <li *ngFor="let House of Houses" (click)='gotoDetail(House.url)' class="btn-primary">
+   {{House.name}}  
+  
+    </li>
+  </ul>
+  <pre>{{ details|json }}</pre>
+ 

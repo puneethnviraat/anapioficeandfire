@@ -1,0 +1,13 @@
+.btn-primary{
+    font-size: 1em;
+    text-align: center;
+    padding:10px;
+    background-color: darkgray;
+
+
+  }
+  .btn-primary:hover{
+    background-color: darkred;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,9 @@
+<h3>Books</h3>
+<ul>
+  <li *ngFor="let book of Books" (click)='gotoDetail(book.url)' class="btn-primary">
+ {{book.name}} 
+  
+
+  </li>
+</ul> 
+<pre>{{ details|json }}</pre>

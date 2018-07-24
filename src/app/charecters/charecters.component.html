@@ -1,0 +1,9 @@
+<h3>  Charecters</h3>
+<ul> 
+    <li *ngFor="let char of Charecters" (click)='gotoDetail(char.url)' class="btn-primary " >
+   {{char.url}}  
+  
+    </li>
+  </ul>
+
+  <pre>{{ details|json }}</pre>
